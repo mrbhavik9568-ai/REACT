@@ -1,0 +1,72 @@
+/* App.css - Styling for the Session 5 dashboard */
+
+.app-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #e1e4e8;
+}
+
+.app-header h1 {
+  color: #2c3e50;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.app-header code {
+  background-color: #f1f2f6;
+  padding: 2px 8px;
+  border-radius: 4px;
+  color: #e74c3c;
+  font-family: monospace;
+}
+
+.subtitle {
+  color: #7f8c8d;
+  font-size: 1.1rem;
+}
+
+/* Layout for our component tasks */
+.assignment-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+@media (min-width: 768px) {
+  .assignment-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.component-card-wrapper {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e1e4e8;
+}
+
+.section-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #34495e;
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+}
+
+.app-footer {
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid #e1e4e8;
+  color: #95a5a6;
+  font-size: 0.9rem;
+}

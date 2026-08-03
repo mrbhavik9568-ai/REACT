@@ -1,0 +1,6 @@
+// How does React's Virtual DOM make UI updates faster?
+//
+// 1. React creates a lightweight copy of the real DOM called the Virtual DOM.
+// 2. When state changes, React renders the UI to this virtual tree first.
+// 3. It diffs the new virtual tree with the previous one to find only the parts that actually changed.
+// 4. Then React updates only those specific real DOM nodes, avoiding full page re‑renders and making updates much faster.
