@@ -1,0 +1,41 @@
+/* App-level styles */
+.container h1 {
+  font-size: 1.6rem;
+  margin: 0 0 12px 0;
+  color: #222;
+}
+.container h2 {
+  font-size: 1.05rem;
+  margin: 0 0 8px 0;
+  color: #333;
+}
+section {
+  border-top: 1px solid #eee;
+  padding-top: 12px;
+}
+button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+input, textarea, select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+label {
+  font-weight: 600;
+}
+.note {
+  font-size: 0.9rem;
+  color: #666;
+}
